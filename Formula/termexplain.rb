@@ -21,7 +21,7 @@ class Termexplain < Formula
   end
 
   resource "google-generativeai" do
-    url "https://files.pythonhosted.org/packages/source/g/google-generativeai/google_generativeai-0.3.0-py3-none-any.whl"
+    url "https://files.pythonhosted.org/packages/26/0c/3f18c4e30f2840c840c826f8c662a9cc9b14e507efabe49e4b6d07f5b9f0/google_generativeai-0.3.0-py3-none-any.whl"
     sha256 "7c28ca71f32d59396580f5a4ccfb0d431f8b1000fbba982e632d06ea6d121770"
   end
   
