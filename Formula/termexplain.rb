@@ -50,6 +50,15 @@ class Termexplain < Formula
     sha256 "27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422"
   end
   
+  def install
+    venv = virtualenv_create(libexec, "python3.11")
+    venv.pip_install resources
+    venv.pip_install_and_link buildpath
+  end
+
+  test do
+    assert_match "error", shell_output("#{bin}/explain 'ModuleNotFoundError'", 1)
+  end
 
   test do
     system "#{bin}/explain", "echo 'Test error'"
