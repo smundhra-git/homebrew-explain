@@ -21,33 +21,33 @@ class Termexplain < Formula
   end
 
   resource "google-generativeai" do
-    url "https://files.pythonhosted.org/packages/6e/40/c42ff9ded9f09ec9392879a8e6538a00b2dc185e834a3392917626255419/google_generativeai-0.8.5-py3-none-any.whl"
-    sha256 "22b420817fb263f8ed520b33285f45976d5b21e904da32b80d4fd20c055123a2"
+    url "https://files.pythonhosted.org/packages/e9/87/105111999772ec9730e3d4d910c723ea9763ece2ec441533a5cea1e87e3c/click-8.2.2.tar.gz"
+    sha256 "068616e6ef9705a07b6db727cb9c248f4eb9dae437a30239f56fa94b18b852ef"
   end
   
   resource "click" do
-    url "https://files.pythonhosted.org/packages/source/c/click/click-8.1.0-py3-none-any.whl"
-    sha256 "19a4baa64da924c5e0cd889aba8e947f280309f1a2ce0947a3e3a7bcb7cc72d6"
+    url "https://files.pythonhosted.org/packages/fe/75/af448d8e52bf1d8fa6a9d089ca6c07ff4453d86c65c145d0a300bb073b9b/rich-14.1.0.tar.gz"
+    sha256 "e497a48b844b0320d45007cdebfeaeed8db2a4f4bcf49f15e455cfc4af11eaa8"
   end
   
   resource "rich" do
-    url "https://files.pythonhosted.org/packages/source/r/rich/rich-13.0.0-py3-none-any.whl"
-    sha256 "12b1d77ee7edf251b741531323f0d990f5f570a4e7c054d0bfb59fb7981ad977"
+    url "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz"
+    sha256 "08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"
   end
   
   resource "colorama" do
-    url "https://files.pythonhosted.org/packages/source/c/colorama/colorama-0.4.6-py2.py3-none-any.whl"
-    sha256 "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+    url "https://files.pythonhosted.org/packages/f6/b0/4bc07ccd3572a2f9df7e6782f52b0c6c90dcbb803ac4a167702d7d0dfe1e/python_dotenv-1.1.1.tar.gz"
+    sha256 "a8a6399716257f45be6a007360200409fce5cda2661e3dec71d23dc15f6189ab"
   end
   
   resource "python-dotenv" do
-    url "https://files.pythonhosted.org/packages/source/p/python-dotenv/python_dotenv-1.0.0-py3-none-any.whl"
-    sha256 "f5971a9226b701070a4bf2c38c89e5a3f0d64de8debda981d1db98583009122a"
+    url "https://files.pythonhosted.org/packages/e1/0a/929373653770d8a0d7ea76c37de6e41f11eb07559b103b1c02cafb3f7cf8/requests-2.32.4.tar.gz"
+    sha256 "27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422"
   end
   
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/source/r/requests/requests-2.31.0-py3-none-any.whl"
-    sha256 "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"
+    url "https://files.pythonhosted.org/packages/e1/0a/929373653770d8a0d7ea76c37de6e41f11eb07559b103b1c02cafb3f7cf8/requests-2.32.4.tar.gz"
+    sha256 "27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422"
   end
   
 
