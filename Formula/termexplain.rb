@@ -12,7 +12,7 @@ class Termexplain < Formula
 
   resource "google-generativeai" do
     url "https://files.pythonhosted.org/packages/f6/5d/e828bdc71950e4549163700ea9213edbae8eb76810a8a9b4ac7fb0b3a25b/google_generativeai-0.3.0-py3-none-any.whl"
-    sha256 "f65de828bdc71950e4549163700ea9213edbae8eb76810a8a9b4ac7fb0b3a25b"
+    sha256 "7c28ca71f32d59396580f5a4ccfb0d431f8b1000fbba982e632d06ea6d121770"
   end
   
   resource "click" do
