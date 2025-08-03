@@ -10,6 +10,12 @@ class Termexplain < Formula
 
   depends_on "python@3.11"
 
+  resource "pygments" do
+    url "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl"
+    sha256 "86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b"
+  end
+  
+
   resource "google-generativeai" do
     url "https://files.pythonhosted.org/packages/f6/5d/e828bdc71950e4549163700ea9213edbae8eb76810a8a9b4ac7fb0b3a25b/google_generativeai-0.3.0-py3-none-any.whl"
     sha256 "7c28ca71f32d59396580f5a4ccfb0d431f8b1000fbba982e632d06ea6d121770"
