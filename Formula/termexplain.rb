@@ -70,11 +70,9 @@ class Termexplain < Formula
     sha256 "38aa7badf48f974f1eb9861794e9c0cb2a0511a4ec0679b1f886d108f5640e05"
   end
 
-/Users/shlokmundhra/opt/anaconda3/envs/termexplain-test/lib/python3.11/site-packages/poet/poet.py:118: UserWarning: No sdist found for google-generativeai
-  warnings.warn("No sdist found for %s" % name)
   resource "google-generativeai" do
-    url ""
-    sha256 ""
+    url "https://files.pythonhosted.org/packages/6e/40/c42ff9ded9f09ec9392879a8e6538a00b2dc185e834a3392917626255419/google_generativeai-0.8.5-py3-none-any.whl"
+    sha256 "22b420817fb263f8ed520b33285f45976d5b21e904da32b80d4fd20c055123a2"
   end
 
   resource "googleapis-common-protos" do
