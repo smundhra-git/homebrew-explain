@@ -3,8 +3,8 @@ class Termexplain < Formula
 
   desc "AI-powered CLI error explainer using Gemini"
   homepage "https://github.com/smundhra-git/termExplain"
-  url "https://codeload.github.com/smundhra-git/termExplain/tar.gz/refs/tags/v1.0.5"
-  sha256 "5768b6b56291a86d85ee194f3aaffe9f0cfe0c5fffa3b458299762302504d44a"
+  url "https://codeload.github.com/smundhra-git/termExplain/tar.gz/refs/tags/v1.0.6"
+  sha256 "06d8062609a4293051b4f5b3beeba0f126462e5abf77e26ae5f70a1e65d2432b"
   license "MIT"
   head "https://github.com/smundhra-git/termExplain.git", branch: "main"
 
