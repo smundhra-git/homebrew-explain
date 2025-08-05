@@ -3,8 +3,8 @@ class Webtest < Formula
     
     desc "Tool to test websites for security vulnerabilities "
     homepage "https://github.com/smundhra-git/webTest"
-    url "https://github.com/smundhra-git/webTest/archive/refs/tags/v1.0.0.tar.gz"
-    sha256 "73d88d4e49404b6a8c9a94026eea0b4ef226e25157c9af92009af2170022cea1"
+    url "https://github.com/smundhra-git/webTest/archive/refs/tags/v1.0.1.tar.gz"
+    sha256 "8815887483290c535ab618b38b337539b08e4ac3790084f7189c0b5bb9546657"
     license "MIT"
     head "https://github.com/smundhra-git/webTest.git", branch: "main"
   
